@@ -48,6 +48,9 @@ ul li{
 }
 /*CONTENT*/
 /*PORTAFOLIO*/
+.x{
+	margin-bottom:30px;
+}
 .img-portafolio{
 	width: 630px;
 	padding: 30px 0px 30px 30px;
@@ -64,10 +67,24 @@ ul li{
 	color:#FFF;
 	padding: 7px;
 }
-
+.eye-heart{
+	font-size: 12.5px;
+	padding: 8px 0px 0px 30px;
+	margin: 0px;
+	color:#B9B4B4;
+}
+.likes{
+	margin:0px;
+}
+.cappuccino{
+	padding-left:0px;
+}
+.caption p{
+	font-size: 11.5px;
+}
 /*PROJECTS*/
 .row-services{
-	border-top: 2px solid #C1C1C1;
+	border-top: 2px dotted #C1C1C1;
 }
 #services li>a{
   color: #C1C1C1;
@@ -79,9 +96,152 @@ ul li{
 }
 
 .row-button{
-	padding: 40px 0px;
-	border-bottom: 2px solid #C1C1C1;
+	padding: 15px 0px 45px 0px;
+	border-bottom: 2px dotted #C1C1C1;
 }
 .btn-load.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
 	background: #4E4E4E;
+}
+.iconos{
+	color:#C1C1C1;
+	padding: 10px 0px 0px 400px;
+}
+/*BLOG*/
+.blog-row{
+	background-color:#F4F5F8;
+	padding: 45px 0px; 
+}
+#blog img{
+	width: 400px;
+}
+.btn-follow{
+	font-size: 13px;
+}
+.btn-follow.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
+	border-radius: 3px;
+	background:#555458; 
+	color:#F4F5F8;
+	padding: 0px 7px;
+}
+.blog-content h4>a{
+	color:#EE2465;
+}
+.blog-content>h4{
+	margin:30px 20px 30px 5px;
+	color:#9B999E;
+}
+/*FOOTER*/
+.row-footer{
+	background-color:#26232D;
+}
+.footer{
+	background-color:#26232D; 
+}
+.footer-logo>h3{
+	font-size: 29.9px;
+	color:#4C4853;
+}
+.footer-text>p{
+	color:#9395B0;
+	padding: 30px 40px;
+}
+.nav{
+	padding: 30px 20px;
+}
+.nav li>a{
+  color: #B7B3B3;
+  padding: 0px;
+  transition: all .5s;
+  background: none;
+  font-size: 10.5px;
+}
+.nav li>a:hover{
+  color:#D2245D;
+  background: none;
+}
+.row-center{
+	border-top:1px solid #312E2E;
+	border-bottom: 1px solid #312E2E;
+	padding: 30px 0px;
+}
+.clients{
+	padding: 0px;
+}
+.row-center h5{
+  	color: #B7B3B3;
+}
+.row-center h6{
+	color:#A6A8C6;
+}
+.text-quote, .quote{
+	padding: 0px;
+	font-size: 10.5px;
+  	color: #B7B3B3;
+}
+.quote{
+	width: 20px;
+}
+.row-center{
+	padding-left: 30px;
+}
+}
+.direc{
+	padding: 0px 50px;
+}
+.direc>p{
+	font-size: 10.5px;
+  	color: #B7B3B3;	
+}
+.direc>.number{
+	font-size:17px;
+	font-weight: bold; 
+	color:#C12357;
+}
+.do-not{
+	font-size: 8.5px;
+	margin:0px;
+}
+.new{
+	padding: 0px 30px;
+}
+.form-control {
+	height: 27.5px;
+	width: 30px;
+	font-size: 10px;
+}
+.new .btn {
+	font-size: 10px;
+} 
+input , .btn-send{
+  background-color: rgba(211,211,211,0.3);
+}
+input.form-control, .btn-send{
+  color:#fff;
+  background-color: rgba(211,211,211,0.1);
+  border:none;
+}
+.btn-follow.active{
+	margin-top:10px;
+	border:none;
+	background: #E22361;
+}
+.pink{
+	color:#E22361;
+	font-size: 10.5px;
+}
+.enlace{
+	color:#9A9CB8;
+	font-size: 10.5px;
+}
+.text-enlace{
+	padding: 0px;
+	font-size: 10.5px;
+  	color: #B7B3B3;
+  	margin:0px;
+}
+p{
+	margin-bottom:0px; 
+}
+.last-footer{
+	padding: 20px;
 }
